@@ -3,24 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JKS1980 Projects</title>
-<meta name="description" content="Personal projects by JKS1980.">
+<title>Two Paws Workshop</title>
+<meta name="description" content="Two Paws Workshop: 3D designs and AI projects by JKS1980.">
+<link rel="icon" href="img/two-paws.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home">
 <main>
-  <h1>JKS1980 Projects</h1>
-  <p class="sub">Small tools I build for my own use. Not commercial, no ads, no tracking.</p>
+  <header class="hero">
+    <h1>Two Paws Workshop</h1>
+    <p class="sub">One workshop, two benches. Pick where you want to go.</p>
+  </header>
 
-  <div class="card">
-    <h2>Jarvis Backup</h2>
-    <p>A personal backup tool. Every night it copies my own files from my home server to my own Google Drive, encrypted before they leave the house. It can only see the files it created itself in my Drive, nothing else.</p>
-    <p>It is used by one person: me. It is not offered to the public.</p>
-    <p><a href="privacy.html">Privacy policy</a></p>
-  </div>
+  <nav class="choose" aria-label="Choose a section">
+    <a class="door design" href="design.html">
+      <img src="img/two-paws.svg" alt="Two Paws Workshop badge" width="220" height="220">
+      <span class="num">1</span>
+      <span class="name">Design</span>
+      <span class="what">3D models and prints, designed and printed at home.</span>
+    </a>
+    <a class="door ai" href="ai.html">
+      <img src="img/two-paws-ai.svg" alt="Two Paws Workshop AI badge" width="220" height="220">
+      <span class="num">2</span>
+      <span class="name">AI</span>
+      <span class="what">Jarvis, the AI assistant we built, and what it does.</span>
+    </a>
+  </nav>
 
   <footer>
-    JKS1980 · <a href="privacy.html">Privacy policy</a>
+    JKS1980 · <a href="backup.html">Jarvis Backup</a> · <a href="privacy.html">Privacy policy</a>
   </footer>
 </main>
 </body>
