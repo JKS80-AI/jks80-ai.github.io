@@ -47,13 +47,7 @@ a { color: var(--accent); }
   transition: transform .15s, border-color .15s, box-shadow .15s;
 }
 .door img { width: 100%; max-width: 220px; height: auto; }
-.door .num {
-  margin-top: 14px; width: 34px; height: 34px; border-radius: 50%;
-  display: grid; place-items: center; font-weight: 800; color: #fff;
-}
-.door.design .num { background: var(--design); }
-.door.ai .num { background: var(--ai); }
-.door .name { font: bold 1.6rem Georgia, "Times New Roman", serif; margin-top: 6px; }
+.door .name { font: bold 1.6rem Georgia, "Times New Roman", serif; margin-top: 14px; }
 .door .what { color: var(--muted); font-size: .95rem; margin-top: 4px; }
 .door:hover, .door:focus-visible { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(59,36,20,.12); outline: none; }
 .door.design:hover, .door.design:focus-visible { border-color: var(--design); }
